@@ -1,0 +1,24 @@
+#!usr/bin/python/
+
+actualtime = 6
+quant = 'yrs'
+quants = 'whole'
+
+
+
+print("mickey I love you...How long have we been together?");
+years=input('enter years')
+
+
+if years <  5:
+
+	print('Sorry but that is less time than we have been together');
+
+elif years > 7:
+
+    print('Nope Baby we have not been around that long!');
+
+else:
+	print('Yes maam, we have been together %d %s %s', actualtime, quants, quant);
+
+
